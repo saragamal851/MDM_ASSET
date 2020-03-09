@@ -1,1 +1,3 @@
-# MDM_ASSET
+This code is mainly about how to use DataStage to execute a script on a secured remote UNIX / Linux Server by using SSH client. This can be used in several use-cases where a remote Unix/Linux application invocation is required to complete an ETL task
+
+In this code, we will discuss a use-case of loading a physical Master Data Management system through the Batch Processor interface. This will be done by calling the batch processor command which is part of the Infopshere MDM distribution. A sample DataStage job implementing such functionality is attached. This example can be extended to call any remote unix/linux command.
